@@ -335,6 +335,7 @@ textarea
 #container div
 {	
 	margin-right: 20px;
+	margin-bottom: 50px;
 	border: 3px solid #8cc6e7;
 	border-radius: 15px;
 	display:inline-block;
@@ -347,7 +348,13 @@ textarea
 }
 #container img
 {	
+	border-radius: 10px;
 	margin: 10px 0; 
+}
+#container img:hover
+{
+	-webkit-transition: 5s ,linear;
+	border: 5px solid #c03465;
 }
 /*FIN ESTRUCTURA VIDEO*/
 
