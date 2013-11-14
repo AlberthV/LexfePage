@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es_ES">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximun-scale=1" />
+    <title>Cursos</title>
+    <link rel="stylesheet" href="css/estilo.css" type="text/css" />
+    <link rel="stylesheet" href="css/jquery.bxslider.css" type="text/css" />
+    <link rel="shortcut icon" href="img/favicon.ico" />
+    <script src="prefixfree.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <style>
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{
+    display: block;
+}
+</style
+< ![endif]-->
+
+
+
+</head>
+
+<body>
+    <section id="contenedor">
+        <div class="moduletable_socials">
+                    
+<script type="text/javascript">
+
+var name                    = "#social-slider-menu";
+var sidebar_top_limit       = 230;
+var sidebar_top_margin      = 230;
+var sidebar_slide_duration  = 800;
+
+
+jQuery(window).scroll(function() {
+ 
+    offset = jQuery(document).scrollTop() + sidebar_top_margin;
+     
+    if(offset < sidebar_top_limit)
+        offset = sidebar_top_limit;
+     
+    jQuery(name).animate({top:offset},{duration:sidebar_slide_duration,queue:false});
+    
+});
+</script><div class="social-slider _socials">
+        <div id="social-slider-menu" style="width:39px;position: absolute; z-index:5;left:10px;">
+            <a style="float:left;margin-top:5px;" href="http://vimeo.com/55637298" target="_blank"><img src="img/vimeo.png" alt="Vimeo" width="32px" height="32px" /></a>
+            <a style="float:left;margin-top:5px;" href="http://www.youtube.com/channel/UCeeg6YRmOBbHrvdDhWFndhA" target="_blank"><img src="img/youtube.png" alt="Youtube" width="32px" height="32px" /></a>
+            <a style="float:left;margin-top:5px;" href="https://twitter.com/lexfestudios" target="_blank"><img src="img/twitter.png" alt="Twitter" width="32px" height="32px" /></a>
+            <a style="float:left;margin-top:5px;" href="https://www.facebook.com/pages/Lexfe-Studios/131978463533933?fref=ts" target="_blank"><img src="img/facebook.png" alt="Facebook" width="32px" height="32px" /></a>
+        </div>
+        <div class="clear"></div>
+        <div id="wrapper">
+        <div style="height:53px;"></div>
+        <header>
+            <div id="logo">
+                <img src="img/logo_lexfe.png" width="196" height="53">
+            </div>
+            
+            <div id="navegador">
+                <nav>
+                    <div class="social-top">
+                    <a href="index.html" target="_blank" class="boton_menu home"></a>
+                    <a href="video.html" target="_blank" class="boton_menu video"></a>
+                    <a href="#" target="_blank" class="boton_menu fotografia"></a>
+                    <a href="#" target="_blank" class="boton_menu audio"></a>
+                    <a href="cursos.html" target="_blank" class="boton_menu cursos"></a>
+                    </div>
+                </nav>
+            </div>
+            
+            <div id="header_contacto">
+                <div align="right" class="header_tel">
+
+                <img src="img/tel_icon.png" width="27" height="27">
+                <p>
+                tel 4342-5659<br>
+                (011)15-2280-4808
+                </p>
+
+                </div>
+            
+                <div align="right" class="header_mail">
+                <img src="img/mail_icon.png" width="27" height="27">
+                <p>
+                <a href="mailto:info@lexfestudios.com" target="_blank">info@lexfestudios.com</a>
+                </p>
+                </div>
+            </div>
+        </header>
+        <section id="container">
+               <h2 style="margin:15px;">Video</h2>
+               
+        <footer>
+            <ul>
+                <li><a href="http://www.lexfedeveloper.com">Lexfe Developer</a></li>
+                <li><a href="http://www.lexfestudios.com/dream.html">Dream</a></li>
+                <li><a href="http://www.lexfestudios.com/contacto.html">Contacto</a></li>
+            </ul>
+            <p>© 2013 Lexfe Studios. All Rights Reserved</p>
+        </footer>
+        </div>
+    </section>
+</body>
+</html>
