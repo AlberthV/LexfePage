@@ -329,6 +329,28 @@ textarea
 {
 	color: #595959;
 }
+
+/*ESTRUCTURA VIDEO*/
+
+#container div
+{	
+	margin-right: 20px;
+	border: 3px solid #8cc6e7;
+	border-radius: 15px;
+	display:inline-block;
+	text-align: center;
+	width: 310px;
+}
+#container div p
+{
+	margin: 15px 18px 15px 18px;
+}
+#container img
+{	
+	margin: 10px 0; 
+}
+/*FIN ESTRUCTURA VIDEO*/
+
 /*Termina DIV DIRECCION*/
 #container h2
 {	
