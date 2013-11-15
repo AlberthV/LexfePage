@@ -332,7 +332,7 @@ textarea
 
 /*ESTRUCTURA VIDEO*/
 
-#container div
+.cont div
 {	
 	margin-right: 20px;
 	margin-bottom: 50px;
@@ -342,16 +342,16 @@ textarea
 	text-align: center;
 	width: 310px;
 }
-#container div p
+.cont p
 {
 	margin: 15px 18px 15px 18px;
 }
-#container img
+.cont img
 {	
 	border-radius: 10px;
 	margin: 10px 0; 
 }
-#container img:hover
+.cont img:hover
 {
 	-webkit-transition: 5s ,linear;
 	border: 5px solid #c03465;
