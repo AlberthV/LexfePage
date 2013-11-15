@@ -253,6 +253,7 @@ input, textarea
 textarea
 {
 	height: 200px;
+	font-family: Conv_BRLNSR;
 }
 
 
@@ -317,6 +318,10 @@ textarea
 	border-radius: 10px;
 	-moz-border-radius:10px;
     -webkit-border-radius:10px;
+    box-shadow: 0px 0px 5px #333333;
+	-moz-box-shadow: 0px 0px 5px #333333;
+	-webkit-box-shadow: 0px 0px 5px #333333;
+	-o-box-shadow: 0px 0px 5px #333333;
 	width: 90%;
 }
 .cont2
@@ -326,6 +331,10 @@ textarea
 	border-radius: 10px;
 	-moz-border-radius:10px;
     -webkit-border-radius:10px;
+	box-shadow: 0px 0px 5px #333333;
+	-moz-box-shadow: 0px 0px 5px #333333;
+	-webkit-box-shadow: 0px 0px 5px #333333;
+	-o-box-shadow: 0px 0px 5px #333333;
 	width: 90%;
 }
 /* FIN ESTRUCTURA DE CURSOS*/
