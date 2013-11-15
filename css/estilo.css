@@ -336,8 +336,9 @@ textarea
 {	
 	margin-right: 20px;
 	margin-bottom: 50px;
-	border: 3px solid #8cc6e7;
 	border-radius: 15px;
+	border-left: 1px outset #8cc6e7;
+	border-top:2px outset #8cc6e7;   
 	display:inline-block;
 	text-align: center;
 	width: 310px;
@@ -347,7 +348,7 @@ textarea
 	margin: 15px 18px 15px 18px;
 }
 .cont img
-{	
+{		
 	border-radius: 10px;
 	margin: 10px 0; 
 }
