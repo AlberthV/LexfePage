@@ -153,15 +153,15 @@ section#container{
 }
 
 #cf4 {
-    position:relative;
-    height:100px;
-    width:210px;
-    margin:0 auto;
 	float:left;
+    height:100px;
+    margin:0 auto;
+    position:relative;
+    width:210px;
   }
   #cf4 img {
-    position:absolute;
     left:0;
+    position:absolute;
     width: 100%;
     -webkit-transition: all 1s ease-in-out;
     -moz-transition: all 1s ease-in-out;
@@ -230,19 +230,21 @@ form
 }
 form label
 {
-	float: left;
 	color: #313131;
+	font-family: Conv_BRLNSR;
+	float: left;
+	margin: 10px 0px 10px 0px;
 
 }
 input, textarea 
 {
+	font-family: Conv_BRLNSR;
 	width:400px;
 	height: 27px;
 	background: #efefef;
 	border: 3px solid #97d6eb;
 	padding: 10px;
-	margin-top: 10px;
-	font-size: 0.9em;
+	font-size: 1em;
 	color: #3a3a3a;
 	-moz-border-radius:5px;
     -webkit-border-radius:5px;
@@ -250,7 +252,7 @@ input, textarea
 }
 textarea
 {
-	height: 165px;
+	height: 200px;
 }
 
 
@@ -268,14 +270,14 @@ textarea
 }
 #submit 
 {	
+    background: #ed4343;
+    border: none;
 	color:#cbcbcb;
-    width:127px;
+    cursor:pointer;
+    float:right;
     height:40px;
     margin-top:20px;
-    cursor:pointer;
-    border: none;
-    float:right;
-    background: #ed4343;
+    width:127px;
 
 }
 
@@ -313,6 +315,8 @@ textarea
 	background: #eff2f2;
 	border: 4px solid #97d6eb;
 	border-radius: 10px;
+	-moz-border-radius:10px;
+    -webkit-border-radius:10px;
 	width: 90%;
 }
 .cont2
@@ -320,6 +324,8 @@ textarea
 	background: #eff2f2;
 	border: 4px solid #97d6eb;
 	border-radius: 10px;
+	-moz-border-radius:10px;
+    -webkit-border-radius:10px;
 	width: 90%;
 }
 /* FIN ESTRUCTURA DE CURSOS*/
@@ -364,6 +370,8 @@ textarea
 footer{
 	background-color:#7DB3D1;
 	border-radius: 0px 0px 15px 15px;
+	-moz-border-radius:0px 0px 15px 15px;
+    -webkit-border-radius:0px 0px 15px 15px;
 	font-family: 'Conv_BRLNSR';
 	height: 50px;
 	list-style:none;
@@ -386,9 +394,9 @@ footer ul
 footer ul li
 {	
 	float: left;
+	font-size: 17px;
 	padding-left: 80px;
 	padding-right: 80px;
-	font-size: 17px;
 }
 
 footer a
