@@ -351,11 +351,7 @@ textarea
 	border-radius: 10px;
 	margin: 10px 0; 
 }
-.cont img:hover
-{
-	-webkit-transition: 5s ,linear;
-	border: 5px solid #c03465;
-}
+
 /*FIN ESTRUCTURA VIDEO*/
 
 /*Termina DIV DIRECCION*/
