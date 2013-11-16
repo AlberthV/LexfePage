@@ -352,15 +352,17 @@ textarea
 	margin-right: 20px;
 	margin-bottom: 50px;
 	border-radius: 15px;
-	border-left: 1px outset #8cc6e7;
-	border-top:2px outset #8cc6e7;   
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-o-border-radius: 15px;
+	border: 3px solid #8cc6e7;
 	display:inline-block;
 	text-align: center;
 	width: 310px;
 }
 .cont p
 {
-	margin: 15px 18px 15px 18px;
+	padding: 10px 18px 15px 18px;
 }
 .cont img
 {		
@@ -381,6 +383,7 @@ footer{
 	border-radius: 0px 0px 15px 15px;
 	-moz-border-radius:0px 0px 15px 15px;
     -webkit-border-radius:0px 0px 15px 15px;
+    -o-border-radius: 0px 0px 15px 15px;
 	font-family: 'Conv_BRLNSR';
 	height: 50px;
 	list-style:none;
